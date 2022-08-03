@@ -23,6 +23,7 @@ header img {
     width: 60px;
     height: 60px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: brown;
@@ -32,6 +33,9 @@ header nav ul li a {
 header nav ul{
     list-style: none;
     display: flex;
+}
+header nav ul div:hover{
+    transform: scale(1.1);
 }
 
 
@@ -74,6 +78,10 @@ main {
     object-fit: cover;
 }
 
+.galeria div:hover{
+    transform: scale(1.1);
+}
+
 .grid-items img{
     border: 2px solid black;
     margin: 5px;
@@ -94,6 +102,10 @@ main {
     margin-top: 30px;
     font-size: 19px;
     font-weight: 500;
+    }
+
+    .adquirir:hover{
+        transform: scale(1.2);
     }
 
 .servicios h1{
@@ -135,6 +147,9 @@ main {
     color: black;
     font-weight: 200;
     background-color: gainsboro;
+}
+.servicios div div:hover{
+    transform: scale(1.1);
 }
 .contacto h1{
     text-align: center;
@@ -207,6 +222,10 @@ main {
         font-weight: 200;
         background-color: gainsboro;
     }
+
+    .equipo div div:hover{
+        transform: scale(1.1);
+    }
     .acercade h1{
         text-align: center;
     }
@@ -224,6 +243,15 @@ footer{
 footer img{
     width: 50px;
     height: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social div:hover{
+    transform: scale(1.3);
 }
 
 
