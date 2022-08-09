@@ -12,12 +12,9 @@ body{
 /*----------HEADER----------*/
 header{
     width: 100%;
-    background-color: gainsboro;
 }
 header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: gainsboro;
 }
 header img {
     width: 60px;
@@ -78,8 +75,11 @@ main {
     object-fit: cover;
 }
 
+.galeria div{
+    transition: 1s;
+}
 .galeria div:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .grid-items img{
@@ -90,6 +90,9 @@ main {
     background-color: gray;
 }
 
+.adquirir{
+    transition: 1s;
+}
 .adquirir a{
     margin-bottom: 20px;
     text-decoration: none;
@@ -105,7 +108,10 @@ main {
     }
 
     .adquirir:hover{
-        transform: scale(1.2);
+        transform: scale(1.05);
+    }
+    .adquirir a:hover{
+        color: white;
     }
 
 .servicios h1{
@@ -130,12 +136,14 @@ main {
 
 .servicios div div a{
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 5px;
     border-radius: 5px;   
     }
-
+.servicios div div a:hover{
+    color: brown;
+}
 .servicios div div{
     width: 300px;
     height: 400px;
@@ -148,8 +156,11 @@ main {
     font-weight: 200;
     background-color: gainsboro;
 }
+.servicios div div{
+    transition: 1s;
+}
 .servicios div div:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .contacto h1{
     text-align: center;
@@ -165,19 +176,28 @@ main {
     font-size: larger;
 }
 
-.formulario{
-    width: 500px;
-    border: 1px solid white;
-    margin: 10px; /*Borrar*/
-    text-align: center;
-    border-radius: 5px;
-    background-color: gainsboro;
-    color: black;
-    font-weight: 200;
+.cont{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    }
+    flex-direction: column;
+    align-items: center;
+
+}
+.formulario{
+width: 600px;
+height: 600px;
+border: 1px solid white;
+margin: 10px;
+text-align: center;
+border-radius: 5px;
+background-color: white;
+color: black;
+font-weight: 200;
+}
+.preguntas{
+    text-align: center;
+    width: 50vw;
+
+}
 
     .equipo h1{
         text-align: center;
@@ -221,8 +241,10 @@ main {
         color: black;
         font-weight: 200;
         background-color: gainsboro;
+        transition: 1s;
     }
 
+    
     .equipo div div:hover{
         transform: scale(1.1);
     }
@@ -232,17 +254,26 @@ main {
     .acercade h2{
         text-align: center;
     }
+    .acercade{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
 /*----------FOOTER----------*/
 footer{
     width: 100%;
     background-color:gainsboro;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
 }
 footer img{
     width: 50px;
     height: 50px;
+}
+footer div h3{
+    font-size: 18px;
 }
 .social{
     display: flex;
