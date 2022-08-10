@@ -183,16 +183,16 @@ main {
 
 }
 .formulario{
-width: 600px;
-height: 600px;
-border: 1px solid white;
-margin: 10px;
-text-align: center;
-border-radius: 5px;
-background-color: white;
-color: black;
-font-weight: 200;
-}
+    width: 320px;
+    height: 610px;
+    border: 1px solid white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 200;
+    }
 .preguntas{
     text-align: center;
     width: 50vw;
@@ -318,3 +318,21 @@ footer div h3{
         text-align: center;
     }
 }
+
+@media screen and (max-width:600px) {
+    .preguntas{
+        width: 95vw;
+        margin-right:2.5vw;
+        margin-left: 2.5vw;
+        
+
+    }
+}
+
+@media screen and (max-width:714px) {
+    .iframes div iframe{
+        width: 300px;
+
+    }
+
+    
