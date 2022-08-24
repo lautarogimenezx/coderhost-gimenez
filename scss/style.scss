@@ -1,26 +1,18 @@
+@import "./base/generales";
+@import "./base/mixins";
+@import "./base/extends.scss";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/servicios";
+@import "./components/_equipo";
+@import "./components/contacto";
+@import "./components/acercade";
+
+
+
 body{
     font-family: 'Raleway', sans-serif;
     background-color: gainsboro;
-}
-header{
-    width: 100%;
-    img{
-        width: 60px;
-        height: 60px;
-        nav{
-            background-color: gainsboro;
-            ul{
-                list-style: none;
-                display: flex;
-                ul li a{
-                    text-decoration: none;
-                    color: brown;
-                    font-size: 19px;
-                    font-weight: 600;
-                }
-            }
-        }
-    }
 }
 main{
     background-color: grey;
@@ -38,11 +30,13 @@ main{
 .intro{
     h2{
         text-align: center;
-        p{
-            text-align: center;
-            font-size: medium;
+        font-weight: 600;
         }
     }
+.lorem{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500px;
 }
 .galeria{
     width: 98%;
@@ -56,8 +50,8 @@ main{
         &:hover{
             transform: scale(1.05);
             img{
-                width: 600px;
-                height: 600px;
+                width: 595px;
+                height: 595px;
                 object-fit: cover;
             }
         }
@@ -65,8 +59,8 @@ main{
 }
 .grid-items{
     img{
-        width: 600px;
-        height: 600px;
+        width: 595px;
+        height: 595px;
         border: 2px solid black;
         margin: 5px;
         border-radius: 5px;
@@ -75,51 +69,24 @@ main{
     }
 }
 .adquirir{
+    @extend %flex.center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: brown;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 500;
     transition: 1s;
-    &:hover{
+    a{
+        text-decoration: none;
+        color: brown;
+        &:hover{
         transform: scale(1.05);
-        a{
-            margin-bottom: 20px;
-            text-decoration: none;
-            background-color: black;
-            color: brown;
-            border-radius: 5px;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            margin-top: 30px;
-            font-size: 19px;
-            font-weight: 500;
             &:hover{
                 color: white;
             }
         }
     }
 }
-footer{
-    width: 100%;
-    background-color:gainsboro;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    img{
-        width: 50px;
-        height: 50px;
-        div{
-            h3{
-                font-size: 18px;
-            }
-        }
-    }
-}
-.social{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    div{
-        transition: 1s;
-        &:hover{
-            transform: scale(1.3);
-        }
-    }
-}
+

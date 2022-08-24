@@ -1,0 +1,13 @@
+@import "../base/generales";
+@import "../base/mixins";
+@import "../base/extends.scss";
+
+.acercade{
+    @include flex (flex, space-around, center, column);
+    h1{
+        text-align: center;
+        h2{
+            text-align: center;
+        }
+    }
+}

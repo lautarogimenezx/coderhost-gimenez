@@ -1,0 +1,59 @@
+@import "../base/generales";
+@import "../base/mixins";
+@import "../base/extends.scss";
+
+.equipo{
+    height: 80vh;
+    h1{
+        text-align: center;
+    }
+}
+
+.cuadros-equipo{
+    transition: 1s;
+    @extend %flex.center;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    div{
+        width: 300px;
+        height: 380px;
+        border: 1px solid gray;
+        margin: 10px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        font-weight: 200;
+        background-color: gainsboro;
+        img{
+            width: 300px;
+            height: 300px;
+            width: 95%;
+            height: 30vh;
+            }
+        }
+    }
+
+.cuadro-1{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.cuadro-2{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.boton-equipo{
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        &:hover{
+            color: brown;
+        }
+    }
