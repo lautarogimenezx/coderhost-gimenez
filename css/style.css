@@ -41,6 +41,18 @@
 
 @media screen and (max-width: 714px) {
   .iframes div iframe {
+    width: 600px; } }
+
+@media screen and (max-width: 616px) {
+  .iframes div iframe {
+    width: 500px; } }
+
+@media screen and (max-width: 516px) {
+  .iframes div iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 414px) {
+  .iframes div iframe {
     width: 300px; } }
 
 .social, .cuadros-servicios, .cuadros-equipo, .cont, .adquirir {
@@ -112,6 +124,18 @@ header {
 
 @media screen and (max-width: 714px) {
   .iframes div iframe {
+    width: 600px; } }
+
+@media screen and (max-width: 616px) {
+  .iframes div iframe {
+    width: 500px; } }
+
+@media screen and (max-width: 516px) {
+  .iframes div iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 414px) {
+  .iframes div iframe {
     width: 300px; } }
 
 .social, .cuadros-servicios, .cuadros-equipo, .cont, .adquirir {
@@ -119,15 +143,14 @@ header {
   justify-content: center;
   align-items: center; }
 
-.servicios {
-  height: 80vh; }
-  .servicios h1 {
-    text-align: center; }
+.servicios h1 {
+  text-align: center; }
 
 .cuadros-servicios {
   transition: 1s;
   flex-wrap: wrap;
-  margin-top: 15vh; }
+  margin-top: 15vh;
+  margin-bottom: 17vh; }
   .cuadros-servicios div {
     width: 300px;
     height: 400px;
@@ -207,6 +230,18 @@ header {
 
 @media screen and (max-width: 714px) {
   .iframes div iframe {
+    width: 600px; } }
+
+@media screen and (max-width: 616px) {
+  .iframes div iframe {
+    width: 500px; } }
+
+@media screen and (max-width: 516px) {
+  .iframes div iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 414px) {
+  .iframes div iframe {
     width: 300px; } }
 
 .social, .cuadros-servicios, .cuadros-equipo, .cont, .adquirir {
@@ -214,15 +249,14 @@ header {
   justify-content: center;
   align-items: center; }
 
-.equipo {
-  height: 80vh; }
-  .equipo h1 {
-    text-align: center; }
+.equipo h1 {
+  text-align: center; }
 
 .cuadros-equipo {
   transition: 1s;
   flex-wrap: wrap;
-  margin-top: 15vh; }
+  margin-top: 15vh;
+  margin-bottom: 17vh; }
   .cuadros-equipo div {
     width: 300px;
     height: 380px;
@@ -297,6 +331,18 @@ header {
 
 @media screen and (max-width: 714px) {
   .iframes div iframe {
+    width: 600px; } }
+
+@media screen and (max-width: 616px) {
+  .iframes div iframe {
+    width: 500px; } }
+
+@media screen and (max-width: 516px) {
+  .iframes div iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 414px) {
+  .iframes div iframe {
     width: 300px; } }
 
 .social, .cuadros-servicios, .cuadros-equipo, .cont, .adquirir {
@@ -320,7 +366,8 @@ header {
 
 .preguntas {
   text-align: center;
-  width: 50vw; }
+  width: 50vw;
+  margin-bottom: 2vh; }
 
 * {
   margin: 0px;
@@ -359,6 +406,18 @@ header {
     margin-left: 2.5vw; } }
 
 @media screen and (max-width: 714px) {
+  .iframes div iframe {
+    width: 600px; } }
+
+@media screen and (max-width: 616px) {
+  .iframes div iframe {
+    width: 500px; } }
+
+@media screen and (max-width: 516px) {
+  .iframes div iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 414px) {
   .iframes div iframe {
     width: 300px; } }
 
@@ -442,3 +501,21 @@ main {
       transform: scale(1.05); }
       .adquirir a:hover:hover {
         color: white; }
+
+@media screen and (max-width: 1885px) {
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: 100px;
+    gap: 30px; } }
+
+@media screen and (max-width: 615px) {
+  .grid-items img {
+    width: 300px;
+    height: 300px; } }
+
+@media screen and (max-width: 1885px) {
+  .adquirir {
+    width: 95vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw; } }

@@ -43,13 +43,27 @@
         width: 95vw;
         margin-right:2.5vw;
         margin-left: 2.5vw;
-        
-
     }
 }
 
 @media screen and (max-width:714px) {
     .iframes div iframe{
+        width: 600px;
+    }
+}
+@media screen and (max-width:616px) {
+    .iframes div iframe{
+        width: 500px;
+    }
+}
+@media screen and (max-width:516px) {
+    .iframes div iframe{
+        width: 400px;
+    }
+}
+@media screen and (max-width:414px) {
+    .iframes div iframe{
         width: 300px;
     }
 }
+

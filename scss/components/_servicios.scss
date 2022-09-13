@@ -3,7 +3,6 @@
 @import "../base/extends.scss";
 
 .servicios{
-    height: 80vh;
     h1{
         text-align: center;
     }
@@ -14,6 +13,7 @@
     @extend %flex.center;
     flex-wrap: wrap;
     margin-top: 15vh;
+    margin-bottom: 17vh;
     div{
         width: 300px;
         height: 400px;
