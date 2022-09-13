@@ -52,7 +52,6 @@ main{
             img{
                 width: 595px;
                 height: 595px;
-                object-fit: cover;
             }
         }
     }
@@ -97,9 +96,26 @@ main{
         gap: 30px;
     }
 }
+@media screen and (max-width: 1885px) {
+    .div{
+            width: 300px;
+            height: 300px;
+        }
+}
+
+
 @media screen and (max-width: 615px) {
     .grid-items{
         img{
+            width: 300px;
+            height: 300px;
+        } 
+    }
+}
+@media screen and (max-width: 631px) {
+    .grid-items{
+        &:hover{
+            transform: scale(1);
             width: 300px;
             height: 300px;
         } 
